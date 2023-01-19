@@ -6,7 +6,16 @@ Args:
 Return: 
   Int: answer
 */
-  return 0;
+int c=0;
+for(int a=2; a<numbers.length; a+=2){
+  c+=(numbers[a]);
+  
+
+
+}
+  return c;
 }
 
-void main() {}
+void main() {
+  print(func([5,4,1,2,3,5,4,1]));
+}

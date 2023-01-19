@@ -6,7 +6,16 @@ Args:
 Return: 
   Int: answer
 */
-  return 0;
+int b=0;
+for(int a=0; a<numbers.length; a++){
+  if(numbers[a]%2==0){
+    b+=numbers[a];
+  }
+
+}
+  return b;
 }
 
-void main() {}
+void main() {
+  print(func([1,2,4,5,6,2]));
+}

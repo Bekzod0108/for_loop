@@ -8,7 +8,15 @@ Args:
 Return: 
   Int: answer
 */
-  return 0;
+int a=0;
+for(int b=k; b<n; b++){
+  if(numbers[b].isEven){
+    a+=numbers[b];
+  }
+}
+  return a;
 }
 
-void main() {}
+void main() {
+  print(func([2,3,4,5,6],2, 5));
+}
