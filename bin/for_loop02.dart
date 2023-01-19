@@ -7,9 +7,10 @@ Return:
   Int: answer
 */
 int c=0;
-for(int a=2; a<numbers.length; a+=2){
+for(int a=2; a<numbers.length; a++){
+  if(a.isEven){
   c+=(numbers[a]);
-  
+  }
 
 
 }
